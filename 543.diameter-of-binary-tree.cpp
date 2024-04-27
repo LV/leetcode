@@ -17,13 +17,18 @@ public:
         int diameter;
     };
 
-    NodeInfo processNodeInfo(NodeInfo left, NodeInfo right) {
-    }
-
     NodeInfo getNodeInfo(TreeNode* root) {
+        if(!root) return {-1, -1};
+        NodeInfo left = getNodeInfo(root->left);
+        NodeInfo right = getNodeInfo(root->right);
+        int height = max(left.height, right.height) + 1;
+        int diameter = max({left.height + right.height, left.diameter, right.diameter, 0});
+        return {height, diameter};
     }
 
     int diameterOfBinaryTree(TreeNode* root) {
+        NodeInfo info = getNodeInfo(root);
+        return info.diameter;
     }
 };
 // @leet end
