@@ -2,9 +2,9 @@
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
-        int val = 0;
-        for(int i=0; i<nums.size(); i++) val ^= nums[i];
-        return val;
+        int x=0;
+        for (int i:nums) x^=i;
+        return x;
     }
 };
 // @leet end
