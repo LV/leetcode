@@ -12,24 +12,17 @@
  */
 class Solution {
 public:
-    bool isEquivalentTree(TreeNode* p, TreeNode* q) {
+    bool isMirror(TreeNode* p, TreeNode* q) {
         if(!p && !q) return true;
         if(!p || !q) return false;
-        return p->val == q->val && isEquivalentTree(p->left, q->left) && isEquivalentTree(p->right, q->right);
-    }
-
-    TreeNode* invertTree(TreeNode* root) {
-        if(!root) return;
-        TreeNode* copy = root->left;
-        root->left = invertTree(root->right);
-        root->right = invertTree(copy);
-        return root;
+        return p->val == q->val && isMirror(p->left, q->right) && isMirror(p->right, q->left);
     }
 
     bool isSymmetric(TreeNode* root) {
         if(!root) return true;
-        invertTree(root->right);
-        return isEquivalentTree(root->left, root->right);
+        return isMirror(root->left, root->right);
     }
+
+    // TODO: Solve iteratively (instead of recursion)
 };
 // @leet end
