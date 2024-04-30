@@ -2,39 +2,35 @@
 class Solution {
 public:
     vector<int> sortedSquares(vector<int>& nums) {
+        if(nums.size() == 0) return {};
+
         int index = 0;
-        while(nums[index] < 0) index++;
+        while(index<nums.size() && nums[index]<0) index++;
 
-        // split lists
-        vector<int> negativeNumbers(nums.begin(), nums.begin()+index);
-        vector<int> nonNegativeNumbers(nums.begin()+index, nums.end());
-
-        transform(negativeNumbers.begin(), negativeNumbers.end(), negativeNumbers.begin(), [](int x) {
+        transform(nums.begin(), nums.end(), nums.begin(), [](int x){
             return x*x;
         });
 
-        transform(nonNegativeNumbers.begin(), nonNegativeNumbers.end(), nonNegativeNumbers.begin(), [](int x) {
-            return x*x;
-        });
-
-        // attach lists
-        int i = negativeNumbers.size()-1;
+        int i = index-1;
         int j = 0;
-        const int max = nonNegativeNumbers.size();
         vector<int> result;
-
-        while(i>=0 && j<max) {
-            if(nonNegativeNumbers[j] < negativeNumbers[i]) {
-                result.push_back(nonNegativeNumbers[j]);
+        while(i>=0 && index+j<nums.size()) {
+            if(nums[index+j] < nums[i]) {
+                result.push_back(nums[index+j]);
                 j++;
             } else {
-                result.push_back(negativeNumbers[i]);
+                result.push_back(nums[i]);
                 i--;
             }
         }
 
-        if(i<0) result.insert(result.end(), nonNegativeNumbers.begin(), nonNegativeNumbers.end());
-        else result.insert(result.end(), negativeNumbers.begin(), negativeNumbers.end());
+        if(i<0) result.insert(result.end(), nums.begin()+index+j, nums.end());
+        else {
+            while(i>=0) {
+                result.push_back(nums[i]);
+                i--;
+            }
+        }
 
         return result;
     }
