@@ -2,9 +2,9 @@
 class Solution {
 public:
     vector<int> sortedSquares(vector<int>& nums) {
-        if(nums.size() == 0) return {};
+        if(nums.empty()) return {};
 
-        int index = 0;
+        unsigned int index = 0;
         while(index<nums.size() && nums[index]<0) index++;
 
         transform(nums.begin(), nums.end(), nums.begin(), [](int x){
