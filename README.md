@@ -48,7 +48,7 @@
 - [X] Convert Sorted Array to Binary Search Tree (Easy) {Binary Search Tree}
 
 ## Week 5
-- [ ] Reverse Bits (Easy) {Binary}
+- [X] Reverse Bits (Easy) {Binary}
 - [X] Subtree of Another Tree (Easy) {Binary Tree}
 - [X] Squares of a Sorted Array (Easy) {Array}
 - [ ] Maximum Subarray (Medium) {Dynamic Programming}
