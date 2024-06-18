@@ -1,7 +1,7 @@
 # Leetcode
 *The following document tracks my Leetcode progress and the problems I will tackle in this repository. This is taken from [[https://www.techinterviewhandbook.org/grind75?weeks=26&hours=6][Grind75]] under the 26 weeks at 6 hours per week*
 
-## [X] Week 1
+## ✅ Week 1
 - [X] Two Sum (Easy) {Array}
 - [X] Valid Parentheses (Easy) {Stack}
 - [X] Merge Two Sorted Lists (Easy) {Linked List}
@@ -13,7 +13,7 @@
 - [X] Flood Fill (Easy) {Graph}
 - [X] Lowest Common Ancestor of a Binary Search Tree (Easy) {Binary Search Tree}
 
-## [X] Week 2
+## ✅ Week 2
 - [X] Balanced Binary Tree (Easy) {Binary Tree}
 - [X] Linked List Cycle (Easy) {Linked List}
 - [X] Implement Queue using Stacks (Easy) {Stack}
@@ -24,7 +24,7 @@
 - [X] Reverse Linked List (Easy) {Linked List}
 - [X] Majority Element (Easy) {Array}
 
-## [X] Week 3
+## ✅ Week 3
 - [X] Add Binary (Easy) {Binary}
 - [X] Diameter of Binary Tree (Easy) {Binary Tree}
 - [X] Middle of the Linked List (Easy) {Linked List}
@@ -35,7 +35,7 @@
 - [X] Backspace String Compare (Easy) {Stack}
 - [X] Counting Bits (Easy) {Binary}
 
-## [X] Week 4
+## ✅ Week 4
 - [X] Same Tree (Easy) {Binary Tree}
 - [X] Number of 1 Bits (Easy) {Binary}
 - [X] Longest Common Prefix (Easy) {String}
@@ -47,7 +47,7 @@
 - [X] Palindrome Number (Easy) {Math}
 - [X] Convert Sorted Array to Binary Search Tree (Easy) {Binary Search Tree}
 
-## [ ] Week 5
+## Week 5
 - [ ] Reverse Bits (Easy) {Binary}
 - [X] Subtree of Another Tree (Easy) {Binary Tree}
 - [X] Squares of a Sorted Array (Easy) {Array}
@@ -56,7 +56,7 @@
 - [ ] 01 Matrix (Medium) {Graph}
 - [ ] K Closest Points to Origin (Medium) {Heap}
 
-## [ ] Week 6
+## Week 6
 - [ ] Longest Substring Without Repeating Characters (Medium) {String}
 - [ ] 3Sum (Medium) {Array}
 - [ ] Binary Tree Level Order Traversal (Medium) {Binary Tree}
@@ -64,7 +64,7 @@
 - [ ] Evaluate Reverse Polish Notation (Medium) {Stack}
 - [ ] Course Schedule (Medium) {Graph}
 
-## [ ] Week 7
+## Week 7
 - [ ] Implement Trie (Medium) {Trie}
 - [ ] Coin Change (Medium) {Dynamic Programming}
 - [ ] Product of Array Except Self (Medium) {Array}
@@ -72,7 +72,7 @@
 - [ ] Validate Binary Search Tree (Medium) {Binary Search Tree}
 - [ ] Number of Islands (Medium) {Graph}
 
-## [ ] Week 8
+## Week 8
 - [ ] Rotting Oranges (Medium) {Graph}
 - [ ] Search in Rotated Sorted Array (Medium) {Binary Search}
 - [ ] Combination Sum (Medium) {Array}
@@ -80,7 +80,7 @@
 - [ ] Merge Intervals (Medium) {Array}
 - [ ] Lowest Common Ancestor of a Binary Tree (Medium) {Binary Tree}
 
-## [ ] Week 9
+## Week 9
 - [ ] Time Based Key-Value Store (Medium) {Binary Search}
 - [ ] Accounts Merge (Medium) {Graph}
 - [ ] Sort Colors (Medium) {Array}
@@ -88,7 +88,7 @@
 - [ ] Partition Equal Subset Sum (Medium) {Dynamic Programming}
 - [ ] String to Integer (atoi) (Medium) {String}
 
-## [ ] Week 10
+## Week 10
 - [ ] Spiral Matrix (Medium) {Matrix}
 - [ ] Subsets (Medium) {Recursion}
 - [ ] Binary Tree Right Side View (Medium) {Binary Tree}
@@ -97,14 +97,14 @@
 - [ ] Construct Binary Tree from Preorder and Inorder Traversal (Medium) {Binary Tree}
 - [ ] Container With Most Water (Medium) {Array}
 
-## [ ] Week 11
+## Week 11
 - [ ] Letter Combinations of a Phone Number (Medium) {Recursion}
 - [ ] Word Search (Medium) {Graph}
 - [ ] Find All Anagrams in a String (Medium) {String}
 - [ ] Minimum Height Trees (Medium) {Tree}
 - [ ] Task Scheduler (Medium) {Heap}
 
-## [ ] Week 12
+## Week 12
 - [ ] LRU Cache (Medium) {Linked List}
 - [ ] Kth Smallest Element in a BST (Medium) {Binary Search Tree}
 - [ ] Daily Temperatures (Medium) {Stack}
@@ -112,7 +112,7 @@
 - [ ] Gas Station (Medium) {Array}
 - [ ] Next Permutation (Medium) {Recursion}
 
-## [ ] Week 13
+## Week 13
 - [ ] Valid Sudoku (Medium) {Matrix}
 - [ ] Group Anagrams (Medium) {String}
 - [ ] Maximum Product Subarray (Medium) {Array}
@@ -120,7 +120,7 @@
 - [ ] Pacific Atlantic Water Flow (Medium) {Graph}
 - [ ] Remove Nth Node From End of List (Medium) {Linked List}
 
-## [ ] Week 14
+## Week 14
 - [ ] Shortest Path to Get Food (Medium) {Graph}
 - [ ] Find the Duplicate Number (Medium) {Binary}
 - [ ] Top K Frequent Words (Medium) {Heap}
@@ -128,7 +128,7 @@
 - [ ] Graph Valid Tree (Medium) {Graph}
 - [ ] Course Schedule II (Medium) {Graph}
 
-## [ ] Week 15
+## Week 15
 - [ ] Swap Nodes in Pairs (Medium) {Linked List}
 - [ ] Path Sum II (Medium) {Binary Tree}
 - [ ] Longest Consecutive Sequence (Medium) {Array}
@@ -136,7 +136,7 @@
 - [ ] Odd Even Linked List (Medium) {Linked List}
 - [ ] Decode String (Medium) {Stack}
 
-## [ ] Week 16
+## Week 16
 - [ ] Contiguous Array (Medium) {Array}
 - [ ] Maximum Width of Binary Tree (Medium) {Binary Tree}
 - [ ] Find K Closest Elements (Medium) {Array}
@@ -144,7 +144,7 @@
 - [ ] Inorder Successor in BST (Medium) {Binary Search Tree}
 - [ ] Jump Game (Medium) {Dynamic Programming}
 
-## [ ] Week 17
+## Week 17
 - [ ] Add Two Numbers (Medium) {Linked List}
 - [ ] Generate Parentheses (Medium) {Recursion}
 - [ ] Sort List (Medium) {Linked List}
@@ -152,7 +152,7 @@
 - [ ] Minimum Knight Moves (Medium) {Graph}
 - [ ] Subarray Sum Equals K (Medium) {Array}
 
-## [ ] Week 18
+## Week 18
 - [ ] Asteroid Collision (Medium) {Stack}
 - [ ] Random Pick with Weight (Medium) {Math}
 - [ ] Kth Largest Element in an Array (Medium) {Heap}
@@ -160,7 +160,7 @@
 - [ ] Rotate Image (Medium) {Matrix}
 - [ ] Binary Tree Zigzag Level Order Traversal (Medium) {Binary Tree}
 
-## [ ] Week 19
+## Week 19
 - [ ] Design Hit Counter (Medium) {Queue}
 - [ ] Path Sum III (Medium) {Binary Tree}
 - [ ] Pow(x, n) (Medium) {Math}
@@ -168,7 +168,7 @@
 - [ ] Largest Number (Medium) {String}
 - [ ] Decode Ways (Medium) {Dynamic Programming}
 
-## [ ] Week 20
+## Week 20
 - [ ] Meeting Rooms II (Medium) {Array}
 - [ ] Reverse Integer (Medium) {Math}
 - [ ] Set Matrix Zeroes (Medium) {Matrix}
@@ -176,7 +176,7 @@
 - [ ] Encode and Decode Strings (Medium) {String}
 - [ ] Cheapest Flights Within K Stops (Medium) {Graph}
 
-## [ ] Week 21
+## Week 21
 - [ ] All Nodes Distance K in Binary Tree (Medium) {Binary Tree}
 - [ ] 3Sum Closest (Medium) {Array}
 - [ ] Rotate List (Medium) {Linked List}
@@ -184,7 +184,7 @@
 - [ ] Basic Calculator II (Medium) {String}
 - [ ] Word Ladder (Medium) {Graph}
 
-## [ ] Week 22
+## Week 22
 - [ ] Insert Delete GetRandom O(1) (Medium) {Hash Table}
 - [ ] Non-overlapping Intervals (Medium) {Array}
 - [ ] Minimum Window Substring (Hard) {String}
@@ -192,25 +192,25 @@
 - [ ] Trapping Rain Water (Hard) {Stack}
 - [ ] Find Median from Data Stream (Hard) {Heap}
 
-## [ ] Week 23
+## Week 23
 - [ ] Word Ladder (Hard) {Graph}
 - [ ] Basic Calculator (Hard) {Binary Search}
 - [ ] Maximum Profit in Job Scheduling (Hard) {Binary Search}
 - [ ] Merge K Sorted Lists (Hard) {Heap}
 
-## [ ] Week 24
+## Week 24
 - [ ] Largest Rectangle in Histogram (Hard) {Stack}
 - [ ] Binary Tree Maximum Path Sum (Hard) {Binary Tree}
 - [ ] Maximum Frequency Stack (Hard) {Stack}
 - [ ] Median of Two Sorted Arrays (Hard) {Binary Search}
 
-## [ ] Week 25
+## Week 25
 - [ ] Longest Increasing Path in a Matrix (Hard) {Graph}
 - [ ] Longest Valid Parentheses (Hard) {String}
 - [ ] Design In-Memory File System (Hard) {Design}
 - [ ] Employee Free Time (Hard) {Array}
 
-## [ ] Week 26
+## Week 26
 - [ ] Word Search II (Hard) {Graph}
 - [ ] Alien Dictionary (Hard) {Graph}
 - [ ] Bus Routes (Hard) {Graph}
